@@ -1,43 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Coca cola es la bebida lalalalala">
+    <title>
+      Inicio - Coca Cola
+    </title>
+    <link rel="shortcut icon" href="ing/favicon.png">
+    
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eca376c8e0.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+   
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-</html>
+  
+   
+      <header>
+        <div class="container">
+          <a href="index.html">
+            <img src="img/logo.svg" class="logo">
+          </a>
+          <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contactenos">Contactenos</a>
+          </nav>
+          <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+        </div>
+      </header>
+      <main>
+        <section id="inicio">
+          <img src="img/bannerprincipal.jpg" >
+          <div class="bloque-inicio">
+             <h1>Bienvenidos a Coca-Cola</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             </p>
+             <a href="#nosotros" class="boton boton-rojo">Ver Mas</a
+           </div>
+        </section>
+        <section id="nosotros" class="seccion">
+          <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco </p>
+          </div>
+        </section>
+        <section id="servicios" class="seccion">
+          <div class="container">
+            <div class="row">
+              <div class="columna columna-33">
+                <div class="bloque-servicio">
+                  <div class="bloque-img-servicio cuadrado-perfecto">
+                    <img src="img/servicio1.jpg">
+                  </div>
+                  <div class="bloque-contenido-servicio">
+                    <h3>Servicio 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    .</p>
+                    <a href="#" class="boton boton-blanco">Ver Aqui</a>
+                  </div>
+                </div>
+              </div>
+              <div class="columna columna-33">
+                <div class="bloque-servicio">
+                  <div class="bloque-img-servicio cuadrado-perfecto">
+                    <img src="img/servicio2.jpg">
+                  </div>
+                  <div class="bloque-contenido-servicio">
+                    <h3>Servicio 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    .</p>
+                    <a href="#" class="boton boton-blanco">Ver Aqui</a>
+                  </div>
+                </div>
+              </div>
+              <div class="columna columna-33">
+                <div class="bloque-servicio">
+                  <div class="bloque-img-servicio cuadrado-perfecto">
+                    <img src="img/servicio3.jpg">
+                  </div>
+                  <div class="bloque-contenido-servicio">
+                    <h3>Servicio 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    .</p>
+                    <a href="#" class="boton boton-blanco">Ver Aqui</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="galeria">
+            <div class="container-fliud">
+              <div class="row">
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio1.jpg">
+                    <h4>Imagen1</h4>						
+                  </div>
+                </div>
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio2.jpg">
+                    <h4>Imagen2</h4>						
+                  </div>
+                </div>
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio3.jpg">
+                    <h4>Imagen3<h4>						
+                  </div>
+                </div>
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio1.jpg">
+                    <h4>Imagen1<h4>						
+                  </div>
+                </div>
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio2.jpg">
+                    <h4>Imagen2<h4>						
+                  </div>
+                </div>
+                <div class="columna-33">
+                  <div class="cuadrado-perfecto">
+                    <img src="img/servicio3.jpg">
+                    <h4>Imagen3<h4>						
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="contactenos" class="seccion">
+          
+          <div class="container-fliud">
+            <div class="row">
+              <div class="columna columna-50 empujar-50">
+                <form action="" method="post">
+                  <div class="form-block">
+                    <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="form-block">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="form-block">
+                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                  </div>
+                  <div class="form-block bloque-ultimo">
+                    <input type="submit" value="Enviar" class="boton boton-negro">
+                  </div>
+                </form>
+              </div>					
+            </div>				
+          </div>
+           
+        </section>
+      </main>
+      <footer class="seccion">
+        <div class="container">
+          <div class="row">
+            <div class="columna columna-25">
+              <img src="img/logo-blanco.png" class="logo-footer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+            </div>
+            <div class="columna columna-25">
+              <h3>
+                Temas relacionados
+              </h3>
+              <ul>
+                <li><a href="#">Tema 1</a></li>
+                <li><a href="#">Tema 2</a></li>
+                <li><a href="#">Tema 3</a></li>
+              </ul>
+            </div>
+            <div class="columna columna-25">
+              <h3>
+                Datos de Contactos
+              </h3>
+              <ul>
+                <li>melina212333@gmail.com</li>
+                <li>3888688141</li>
+                <li>RAguilera 261 - San Pedro de Jujuy <br> Jujuy - Argentina </li>
+              </ul>
+            </div>
+            <div class="columna columna-25">
+              <h3>
+                Redes Sociales
+              </h3>
+                <ul class="redes">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook">
+                      </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="columna columna-25">
+    
+            </div>				
+          </div>			
+        </div>
+        <div class="barra-footer">
+          &copy; Detechos Recervados - 2021
+        </div>
+      </footer>
+    </body>
